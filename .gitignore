@@ -1,19 +1,82 @@
-# Secrets
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+src/.venv/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.ruff_cache/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+
+# Secrets & Environment variables
 .env
 .env.*
 !.env.example
+*.pem
+*.key
 
-# Python / OS (the PowerShell setup creates src/.venv inside the repo)
-.venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.DS_Store
-
-# Runtime output. Reports for grading (baseline_v1/v2, eval_fixed, eval_seeded_regression)
+# Runtime output & Lab 9 artifacts
+# Reports for grading (baseline_v1/v2, eval_fixed, eval_seeded_regression)
 # are committed with: git add -f reports/*.json
 src/reports/
 traces/
+src/traces/
 *.sqlite
 *.sqlite-*
 student_drop/
