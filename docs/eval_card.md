@@ -3,11 +3,11 @@
 Card này đi kèm mỗi báo cáo và được dùng lại ở Day 10.
 
 - **Run ID / eval set SHA:**
-  - Baseline v1: `E-swarm-20261118-4bfb` · eval set SHA `4bfba9d25ecb`
-  - Baseline v2: `E-swarm-20261118-7517` · eval set SHA `7517a710be61`
+  - Baseline v1: `E-swarm-20261118-497a` · eval set SHA `497a2e85db60`
+  - Baseline v2: `E-swarm-20261118-2aa7` · eval set SHA `2aa7c83db8e1`
 - **Phiên bản:**
   - Code: git commit nhánh `starter/d09`
-  - Eval set: v1 (`4bfba9d25ecb`), v2 (`7517a710be61`)
+  - Eval set: v1 (`497a2e85db60`), v2 (`2aa7c83db8e1`)
   - Metric spec: `config/metric_spec.yaml` (v1.0), `config/metric_spec_v2.yaml` (v2.0)
   - Seeds chuẩn: [11, 22, 33, 44, 55] · Mô hình: MockLLM
 - **Eval set:**

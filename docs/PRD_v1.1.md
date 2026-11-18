@@ -45,7 +45,7 @@ Quy tắc: tiền và phê duyệt luôn chấm bằng code. Judge chỉ dùng c
 
 ## 5. Cổng release
 - **Lệnh thực thi:** `python -m lab9.gate --pr reports/eval_<shape>.json --baseline reports/baseline_v1.json`
-- Baseline lấy từ nhánh được bảo vệ (`main`), phủ đủ `14 item × 5 seed`; `eval_set_sha` của PR phải trùng baseline (`4bfba9d25ecb`).
+- Baseline lấy từ nhánh được bảo vệ (`main`), phủ đủ `14 item × 5 seed`; `eval_set_sha` của PR phải trùng baseline (`497a2e85db60`).
 - Gate exit 1 → **không merge**. Người xử lý: Vương Quang Thắng (Evaluation Engineer / Tech Lead). Ngoại lệ (waiver) cần: Product Owner và Security Lead duyệt, ghi rõ lý do và kế hoạch hotfix vào PR.
 
 ## 6. Bằng chứng còn thiếu / rủi ro mở
